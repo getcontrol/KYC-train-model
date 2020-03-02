@@ -46,7 +46,8 @@ Samples are included in 'test_samples_600*800'.
 
 ```python test.py```
 
-![Results](https://github.com/getcontrol/KYC-tensorflow/blob/master/model-result.png)
+![Results](https://github.com/getcontrol/KYC-train-model/blob/master/model-result.png)
+
 
 ### Citation
 Please cite this paper, if using midv dataset, link for dataset provided in paper
