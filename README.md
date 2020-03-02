@@ -6,6 +6,7 @@ This repo contains the Python code to produce the dataset and train the Tensorfl
 
 1. Clone the repo
 ``` git clone https://github.com/getcontrol/verification-train-model ```
+
 ``` verification-train-model```
 
 2. Download and unzip the the MIDV-500 formatted dataset to verification-train-model directory
@@ -13,7 +14,9 @@ This repo contains the Python code to produce the dataset and train the Tensorfl
 https://www.dropbox.com/s/dmjbat0e1re5rkf/midv_500.zip?dl=0
 
 3. Make a 'data' directory in verification-train-model for the dataset generation and an output folder for testing
+
 ```mkdir data```
+
 ```mkdir output```
 
 4. Create and activate a Python 3 Virtual environment
@@ -42,6 +45,8 @@ Samples are included in 'test_samples_600*800'.
 
 ```python test.py```
 
+
+![Results](https://github.com/getcontrol/KYC-tensorflow/blob/master/results.png)
 
 ### Citation
 Please cite this paper, if using midv dataset, link for dataset provided in paper
