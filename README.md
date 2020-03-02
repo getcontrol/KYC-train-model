@@ -6,9 +6,9 @@ This repo contains the Python code to produce the dataset and train the Tensorfl
 
 1. Clone the repo.
 
-``` git clone https://github.com/getcontrol/verification-train-model ```
+``` git clone https://github.com/getcontrol/KYC-train-model ```
 
-``` cd verification-train-model```
+``` cd KYC-train-model```
 
 2. Download and unzip the the MIDV-500 formatted dataset to 'verification-train-model' directory.
 
