@@ -1,41 +1,42 @@
 # Train Tensorflow Model for Tensorflow Verification
 
-This repo contains the Python code to produce the dataset and train the Tensorflow model for use in https://github.com/getcontrol/tensorflow-verification. This training model transfers learning from a previously trained model mobilenet_v2.
+This repo contains the Python code to produce the dataset and train the Tensorflow model for use in [KYC-tensorflow](https://github.com/getcontrol/KYC-tensorflow). This training model transfers learning from a previously trained model mobilenet_v2.
 
 # Installation Instructions
 
-1. Clone the repo
+1. Clone the repo.
+
 ``` git clone https://github.com/getcontrol/verification-train-model ```
 
-``` verification-train-model```
+``` cd verification-train-model```
 
-2. Download and unzip the the MIDV-500 formatted dataset to verification-train-model directory
+2. Download and unzip the the MIDV-500 formatted dataset to 'verification-train-model' directory.
 
 https://www.dropbox.com/s/dmjbat0e1re5rkf/midv_500.zip?dl=0
 
-3. Make a 'data' directory in verification-train-model for the dataset generation and an output folder for testing
+3. Make a 'data' directory in verification-train-model for the dataset generation and an 'output' folder for testing.
 
 ```mkdir data```
 
 ```mkdir output```
 
-4. Create and activate a Python 3 Virtual environment
+4. Create and activate a Python 3 Virtual environment.
 
 ```python3 -m venv env```
 
 ```source env/bin/activate```
 
-5. Install Requirements
+5. Install Requirements.
 
 ```pip install -r requirements.txt```
 
-6. Synthesize training data
+6. Synthesize training data.
 
 ```python synthesis_data.py```
 
 ```python receipt_dataset.py```
 
-7. Train model
+7. Train model.
 
 ```python train.py```
 
